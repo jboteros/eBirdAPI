@@ -40,6 +40,7 @@ exports.add = function(req, res) {
  subFamily: req.body.subFamily,
  country: req.body.country,
  zone: req.body.zone,
+ image: req.body.image
  });
  bird.save(function(err, bird) {
  if(err) return res.send(500, err.message);
@@ -56,6 +57,7 @@ exports.update = function(req, res) {
  bird.subFamily = req.body.subFamily;
  bird.country = req.body.country;
  bird.zone = req.body.zone;
+ bird.image = req.body.image;
  bird.save(function(err) {
  if(err) return res.send(500, err.message);
  res.status(200).jsonp(bird);

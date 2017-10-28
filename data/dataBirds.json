@@ -5,7 +5,8 @@
     "family": "Struthioniformes",
     "subFamily": "Tinamous (Tinamidae)",
     "country": "Brasil",
-    "zone": "Pará, Mato Grosso"
+    "zone": "Pará, Mato Grosso",
+    "image": "http://jbotero.com/developer/eBirdAPIAssets/BrazilianTinamou.jpg"
   },
   {
     "name": "Choco Tinamou",
@@ -13,7 +14,8 @@
     "family": "Struthioniformes",
     "subFamily": "Tinamous (Tinamidae)",
     "country": "Panama",
-    "zone": "Darién Province"
+    "zone": "Darién Province",
+    "image": "http://jbotero.com/developer/eBirdAPIAssets/ChocoTinamou.jpg"
   },
   {
     "name": "Collared Brush-turkey",
@@ -21,7 +23,8 @@
     "family": "Galliformes",
     "subFamily": "Megapodes (Megapodiidae)",
     "country": "New Guinea",
-    "zone": "Papua"
+    "zone": "Papua",
+    "image": "http://jbotero.com/developer/eBirdAPIAssets/CollaredBrush-turkey.jpg"
   },
   {
     "name": "Belem Curassow",
@@ -29,7 +32,8 @@
     "family": "Galliformes ",
     "subFamily": "Guans, Chachalacas, Curassows (Cracidae)",
     "country": "Mexico",
-    "zone": " Ixtapaluca"
+    "zone": " Ixtapaluca",
+    "image": "http://jbotero.com/developer/eBirdAPIAssets/BelemCurassow.jpg"
   },
   {
     "name": "Sira Curassow",
@@ -37,7 +41,8 @@
     "family": "Galliformes ",
     "subFamily": "Guans, Chachalacas, Curassows (Cracidae)",
     "country": "Colombia",
-    "zone": "Amazonas"
+    "zone": "Amazonas",
+    "image": "http://jbotero.com/developer/eBirdAPIAssets/SiraCurassow.jpg"
   },
   {
     "name": "Swallow-winged Puffbird",
@@ -45,7 +50,8 @@
     "family": "Piciformes",
     "subFamily": "Puffbirds (Bucconidae)",
     "country": "Colombia",
-    "zone": "Vaupés"
+    "zone": "Vaupés",
+    "image": "http://jbotero.com/developer/eBirdAPIAssets/Swallow-wingedPuffbird.jpg"
   },
   {
     "name": "Papuan Black Myzomela",
@@ -53,7 +59,8 @@
     "family": "Passeriformes",
     "subFamily": "Honeyeaters (Meliphagidae)",
     "country": "New Guinea",
-    "zone": "Papua"
+    "zone": "Papua",
+    "image": "http://jbotero.com/developer/eBirdAPIAssets/PapuanBlackMyzomela.jpg"
   },
   {
     "name": "Indian Peafowl",
@@ -61,7 +68,8 @@
     "family": "Galliformes",
     "subFamily": "Pheasants, Partridges, Turkeys, Grouse (Phasianidae)",
     "country": "Colombia",
-    "zone": "Bogotá"
+    "zone": "Bogotá",
+    "image": "http://jbotero.com/developer/eBirdAPIAssets/IndianPeafowl.jpg"
   },
   {
     "name": "Andean Duck",
@@ -69,6 +77,7 @@
     "family": "Anseriformes",
     "subFamily": "Ducks, Geese, Swans (Anatidae)",
     "country": "Colombia",
-    "zone": "Rio Negro Antioquia"
+    "zone": "Rio Negro Antioquia",
+    "image": "http://jbotero.com/developer/eBirdAPIAssets/AndeanDuck.jpg"
   }
 ]

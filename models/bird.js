@@ -7,7 +7,8 @@ var birdSchema = new Schema({
  family: { type: String },
  subFamily: { type: String },
  country: { type: String },
- zone: { type: String }
+ zone: { type: String },
+ image: { type: String }
 });
 
 
