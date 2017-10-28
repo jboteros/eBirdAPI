@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Brazilian Tinamou",
+    "nameScientific": "Crypturellus strigulosus",
+    "family": "Struthioniformes",
+    "subFamily": "Tinamous (Tinamidae)",
+    "country": "Brasil",
+    "zone": "Pará, Mato Grosso"
+  },
+  {
+    "name": "Choco Tinamou",
+    "nameScientific": "Crypturellus kerriae",
+    "family": "Struthioniformes",
+    "subFamily": "Tinamous (Tinamidae)",
+    "country": "Panama",
+    "zone": "Darién Province"
+  },
+  {
+    "name": "Collared Brush-turkey",
+    "nameScientific": "Talegalla jobiensis",
+    "family": "Galliformes",
+    "subFamily": "Megapodes (Megapodiidae)",
+    "country": "New Guinea",
+    "zone": "Papua"
+  },
+  {
+    "name": "Belem Curassow",
+    "nameScientific": "Crax pinima",
+    "family": "Galliformes ",
+    "subFamily": "Guans, Chachalacas, Curassows (Cracidae)",
+    "country": "Mexico",
+    "zone": " Ixtapaluca"
+  },
+  {
+    "name": "Sira Curassow",
+    "nameScientific": "Pauxi koepckeae",
+    "family": "Galliformes ",
+    "subFamily": "Guans, Chachalacas, Curassows (Cracidae)",
+    "country": "Colombia",
+    "zone": "Amazonas"
+  },
+  {
+    "name": "Swallow-winged Puffbird",
+    "nameScientific": "Chelidoptera tenebrosa",
+    "family": "Piciformes",
+    "subFamily": "Puffbirds (Bucconidae)",
+    "country": "Colombia",
+    "zone": "Vaupés"
+  },
+  {
+    "name": "Papuan Black Myzomela",
+    "nameScientific": "Myzomela nigrita",
+    "family": "Passeriformes",
+    "subFamily": "Honeyeaters (Meliphagidae)",
+    "country": "New Guinea",
+    "zone": "Papua"
+  },
+  {
+    "name": "Indian Peafowl",
+    "nameScientific": "Pavo cristatus",
+    "family": "Galliformes",
+    "subFamily": "Pheasants, Partridges, Turkeys, Grouse (Phasianidae)",
+    "country": "Colombia",
+    "zone": "Bogotá"
+  },
+  {
+    "name": "Andean Duck",
+    "nameScientific": "Oxyura ferruginea",
+    "family": "Anseriformes",
+    "subFamily": "Ducks, Geese, Swans (Anatidae)",
+    "country": "Colombia",
+    "zone": "Rio Negro Antioquia"
+  }
+]

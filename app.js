@@ -6,7 +6,7 @@ var app = express();
 
 
 // Connection to DB
-mongoose.connect('mongodb://localhost/clients', function(err, res) {
+mongoose.connect('mongodb://localhost/birds', function(err, res) {
  if(err) throw err;
  console.log('Connected to Database');
 });
@@ -16,14 +16,14 @@ app.use(bodyParser.json());
 app.use(methodOverride());
 
 // Import Models and Controllers
-var models = require('./models/client')(app, mongoose);
-var ClientCtrl = require('./controllers/clients');
+var models = require('./models/bird')(app, mongoose);
+var BirdCtrl = require('./controllers/birds');
 
 var router = express.Router();
 
 // Index - Route
 router.get('/', function(req, res) { 
- res.send("Hola Mundo - www.programacion.com.py");
+ res.send("Hola Mundo");
 });
 
 app.use(router);
@@ -31,19 +31,19 @@ app.use(router);
 // API routes
 var api = express.Router();
 
-api.route('/clients') 
- .get(ClientCtrl.findAll)
- .post(ClientCtrl.add);
+api.route('/birds') 
+ .get(BirdCtrl.findAll)
+ .post(BirdCtrl.add);
 
-api.route('/clients/:id') 
- .get(ClientCtrl.findById)
- .put(ClientCtrl.update)
- .delete(ClientCtrl.delete);
+api.route('/birds/:id') 
+ .get(BirdCtrl.findById)
+ .put(BirdCtrl.update)
+ .delete(BirdCtrl.delete);
 
- api.route('/clients/:name') 
- .get(ClientCtrl.findByName)
- .put(ClientCtrl.update)
- .delete(ClientCtrl.delete);
+ api.route('/birds/:name') 
+ .get(BirdCtrl.findByName)
+ .put(BirdCtrl.update)
+ .delete(BirdCtrl.delete);
 
 app.use('/api', api);
 
