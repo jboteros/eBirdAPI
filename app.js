@@ -57,6 +57,6 @@ app.use('/api', api);
 
 
 // Start server
-app.listen(3000, function() {
+app.listen(8080, function() {
  console.log("Node server running on http://localhost:3000");
 });
