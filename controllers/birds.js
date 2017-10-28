@@ -36,8 +36,10 @@ exports.add = function(req, res) {
  var bird = new Bird({
  name: req.body.name,
  nameScientific: req.body.nameScientific,
+ family: req.body.family,
+ subFamily: req.body.subFamily,
  country: req.body.country,
- zone: req.body.zone
+ zone: req.body.zone,
  });
  bird.save(function(err, bird) {
  if(err) return res.send(500, err.message);
@@ -50,6 +52,8 @@ exports.update = function(req, res) {
  Bird.findById(req.params.id, function(err, bird) {
  bird.name = req.body.name;
  bird.nameScientific = req.body.nameScientific;
+ bird.family = req.body.family;
+ bird.subFamily = req.body.subFamily;
  bird.country = req.body.country;
  bird.zone = req.body.zone;
  bird.save(function(err) {
