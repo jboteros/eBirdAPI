@@ -27,6 +27,7 @@ exports.findByName = function(req, res) {
  });
 };
 
+
 //POST - Insert a new register
 exports.add = function(req, res) {
  console.log('POST');

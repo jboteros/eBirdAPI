@@ -4,14 +4,6 @@ var mongoose = require('mongoose');
 var methodOverride = require("method-override");
 var app = express();
 
-/*
-// Connection to DB
-mongoose.connect('mongodb://localhost/clients', function(err, res) {
- if(err) throw err;
- console.log('Connected to Database');
-});
-*/
-
 
 // Connection to DB
 mongoose.connect('mongodb://localhost/clients', function(err, res) {
@@ -58,5 +50,5 @@ app.use('/api', api);
 
 // Start server
 app.listen(8080, function() {
- console.log("Node server running on http://localhost:3000");
+ console.log("Node server running on http://localhost:8080");
 });
