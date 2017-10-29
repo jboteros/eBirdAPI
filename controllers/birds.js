@@ -40,6 +40,7 @@ exports.add = function(req, res) {
  subFamily: req.body.subFamily,
  country: req.body.country,
  zone: req.body.zone,
+ description: req.body.description,
  image: req.body.image
  });
  bird.save(function(err, bird) {
@@ -52,12 +53,13 @@ exports.add = function(req, res) {
 exports.update = function(req, res) {
  Bird.findById(req.params.id, function(err, bird) {
  bird.name = req.body.name;
- bird.nameScientific = req.body.nameScientific;
- bird.family = req.body.family;
- bird.subFamily = req.body.subFamily;
- bird.country = req.body.country;
- bird.zone = req.body.zone;
- bird.image = req.body.image;
+	 bird.nameScientific = req.body.nameScientific;
+	 bird.family = req.body.family;
+	 bird.subFamily = req.body.subFamily;
+	 bird.country = req.body.country;
+	 bird.zone = req.body.zone;
+	 bird.description = req.body.description;
+	 bird.image = req.body.image;
  bird.save(function(err) {
  if(err) return res.send(500, err.message);
  res.status(200).jsonp(bird);

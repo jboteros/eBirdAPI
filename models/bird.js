@@ -8,9 +8,10 @@ var birdSchema = new Schema({
  subFamily: { type: String },
  country: { type: String },
  zone: { type: String },
+ description: { type: String },
  image: { type: String }
 });
-
+a
 
 module.exports = mongoose.model('Bird', birdSchema);
  

@@ -42,8 +42,6 @@ api.route('/birds/:id')
 
  api.route('/birds/:name') 
  .get(BirdCtrl.findByName)
- .put(BirdCtrl.update)
- .delete(BirdCtrl.delete);
 
 app.use('/api', api);
 
