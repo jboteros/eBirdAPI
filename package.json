@@ -16,6 +16,6 @@
   "dependencies": {
     "express": "^4.16.2",
     "method-override": "^2.3.10",
-    "mongoose": "^4.12.4"
+    "mongoose": "^5.7.5"
   }
 }
